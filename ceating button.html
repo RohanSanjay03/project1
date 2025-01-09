@@ -8,15 +8,21 @@
   <background-image><img src="walmart-logo.png" alt="" /></background-image>
 </head>
 
-<body>{
-  background-image: url()}
+<body>
   <form>
     <p>username/mail</p>
-    <input type="username/mail" />
+    <input type="email" />
     <p>password</p>
     <input type="password" />
     <p>
-      <span><input type="checkbox" /></span>I'm not a bot
+    <div>
+      <label for="bday">birthdate: </label>
+      <input type="date">
+    </div>
+    <span>
+      <label for="notbot">verifi</label>
+      <input type="checkbox" id="notbot" />
+    </span>I'm not a bot
     </p>
 
     <button>login</button>
