@@ -1,47 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Right Divs</title>
     <style>
-        .flex-container {
-            display: flex;
-            flex-wrap: wrap;
-            background-color: DodgerBlue;
+        /* Container holding the two divs */
+        .container {
+            position: fixed;
+            /* Fixes the container to the viewport */
+            top: 0;
+            /* Aligns the container at the top */
+            right: 0;
+            /* Aligns the container to the right */
+            padding: 10px;
         }
 
-        .flex-container>div {
-            background-color: #f1f1f1;
+        /* Style for each individual div */
+        .box {
             width: 100px;
-            margin: 10px;
+            height: 100px;
+            margin-left: 10px;
+            /* Space between the two divs */
+            background-color: #4CAF50;
+            color: white;
+            display: inline-block;
+            /* Inline block makes the divs sit side by side */
             text-align: center;
-            line-height: 75px;
-            font-size: 30px;
+            line-height: 100px;
+            /* Center the text vertically */
         }
     </style>
 </head>
 
 <body>
 
-    <h1>The flex-wrap Property</h1>
-
-    <p>flex-wrap: wrap; specifies that the flex items will wrap if necessary:</p>
-
-    <div class="flex-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
-        <div>10</div>
-        <div>11</div>
-        <div>12</div>
+    <!-- Container with two child divs -->
+    <div class="container">
+        <div class="box">Div 1</div>
+        <div class="box">Div 2</div>
     </div>
-
-    <p>Try resizing the browser window!</p>
 
 </body>
 
