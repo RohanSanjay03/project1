@@ -1,5 +1,10 @@
+<<<<<<< Updated upstream
 .wholebox{height: 900px;
     width: 1600px;
+=======
+.wholebox{height: 550px;
+    width: 1000px;
+>>>>>>> Stashed changes
     background-color: white;
     border: 2px;
     border-style: solid;
@@ -10,15 +15,18 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 30px;
-    width: 1600px;
+    width: 1000px;
 
     display: flex;
 
 }    
-.ndcontaine {
-    display: flex; 
+.wholeflex{
+    display:flex ;
+    justify-content: space-around;
+}
 
 
+<<<<<<< Updated upstream
 }
 .thirdmainbox{
     display: flex; 
@@ -32,11 +40,29 @@
     display: flex;
     justify-content: ;
 }
+=======
+.box1{
+    display: flex;
+}   
+.tier12{
+    display: flex ;
+}
+.box2{
+    display: flex;
+}
+.tier34{
+    display: flex;
+}
+.lastline{
+    display: flex;
+    justify-content: center;
+}
+>>>>>>> Stashed changes
 
 .box{
     display: flex;
-    height: 200px;
-    width: 1580px;
+    height: 100px;
+    width: 980px;
     background-color: rebeccapurple;
     border: 2px;
     border-style: solid;
@@ -46,8 +72,13 @@
 }
 .box1{
    display: flex;
+<<<<<<< Updated upstream
     height: 300px;
     width: 760px;
+=======
+    height: 200px;
+    width: 360px;
+>>>>>>> Stashed changes
     background-color: beige;
     border: 2px;
     border-style: solid;
@@ -60,8 +91,13 @@
 }
 .box2{
    display: flex;
+<<<<<<< Updated upstream
     height: 300px;
     width: 760px;
+=======
+    height: 200px;
+    width: 360px;
+>>>>>>> Stashed changes
     background-color: beige;
     border: 2px;
     border-style: solid;
@@ -71,19 +107,32 @@
     align-items: center;
     flex-direction: column; 
 }
+<<<<<<< Updated upstream
 .box3{
     display: flex;
      height: 100px;
      width: 300px;
+=======
+.tier1{
+    display: flex;
+     height: 70px;
+     width: 160px;
+>>>>>>> Stashed changes
      background-color: beige;
      border: 2px;
      border-style: solid;
      margin-left: 10px;
+<<<<<<< Updated upstream
      margin-right: 70px;
+=======
+     margin-right: 40px;
+     margin-top: 15px;
+>>>>>>> Stashed changes
      justify-content: center;
      align-items: center;
      flex-direction: column; 
  }
+<<<<<<< Updated upstream
  .box4{
     display: flex;
      height: 100px;
@@ -93,10 +142,23 @@
      border-style: solid;
      margin-left: 70px;
      margin-right: 10px;
+=======
+ .tier2{
+    display: flex;
+     height: 70px;
+     width: 160px;
+     background-color: beige;
+     border: 2px;
+     border-style: solid;
+     margin-left: 10px;
+     margin-right: 40px;
+     margin-top: 15px;
+>>>>>>> Stashed changes
      justify-content: center;
      align-items: center;
      flex-direction: column; 
  }
+<<<<<<< Updated upstream
  .box5{
     display: flex;
      height: 100px;
@@ -106,10 +168,23 @@
      border-style: solid;
      margin-left: 150px;
      margin-right: 10px;
+=======
+ .tier3{
+    display: flex;
+     height: 70px;
+     width: 160px;
+     background-color: beige;
+     border: 2px;
+     border-style: solid;
+     margin-left: 10px;
+     margin-right: 40px;
+     margin-top: 15px;
+>>>>>>> Stashed changes
      justify-content: center;
      align-items: center;
      flex-direction: column; 
  }
+<<<<<<< Updated upstream
  .box6{
     display: flex;
      height: 100px;
@@ -119,10 +194,23 @@
      border-style: solid;
      margin-left: 100px;
      margin-right: 10px;
+=======
+ .tier4{
+    display: flex;
+     height: 70px;
+     width: 160px;
+     background-color: beige;
+     border: 2px;
+     border-style: solid;
+     margin-left: 10px;
+     margin-right: 40px;
+     margin-top: 15px;
+>>>>>>> Stashed changes
      justify-content: center;
      align-items: center;
      flex-direction: column; 
  }
+<<<<<<< Updated upstream
  .box7{
     display: flex;
      height: 100px;
@@ -138,6 +226,25 @@
  }
 
 
+=======
+ 
+ .end{
+    display: flex;
+     height: 50px;
+     width: 160px;
+     background-color: beige;
+     border: 2px;
+     border-style: solid;
+     margin-left: 10px;
+     margin-right: 40px;
+     margin-top: 15px;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column; 
+ }
+ 
+ 
+>>>>>>> Stashed changes
 
 
 
